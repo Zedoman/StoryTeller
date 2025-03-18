@@ -50,6 +50,8 @@ StoryTeller is an interactive choice-based storytelling application that demonst
    ```
    VITE_FLAGSMITH_ENVIRONMENT_ID=your_flagsmith_environment_id
    VITE_GROQ_API_KEY=your_groq_api_key
+   VITE_FLAGSMITH_PROJECT_ID=
+   VITE_FLAGSMITH_API_KEY=
    ```
 
 4. Start the development server
