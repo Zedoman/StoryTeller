@@ -286,10 +286,12 @@ const FeatureFlagDemo = () => {
               Environment Configuration
             </h2>
             <p className="text-sm mb-2">
-              <strong>Environment ID:</strong> {envId}
+              <strong>Environment ID:</strong> 
+              {envId === "Not configured" ? "Not configured" : "Configured (hidden for security)"}
             </p>
             <p className="text-sm mb-2">
-              <strong>Project ID:</strong> {projectId}
+              <strong>Project ID:</strong> 
+              {projectId === "Not configured" ? "Not configured" : "Configured (hidden for security)"}
             </p>
             <p className="text-sm mb-2">
               <strong>API Key:</strong>{" "}
